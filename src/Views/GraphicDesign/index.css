@@ -1,4 +1,31 @@
-.list {
-  display: flex;
-  flex-direction: column;
+#Adidas {
+  display: inline;
+  position: absolute;
+  left: 0px;
+  right: 600px;
+  bottom: 300px;
+}
+
+#Ioios {
+  display: inline;
+  position: absolute;
+  left: 0px;
+  right: 600px;
+  bottom: 50px;
+}
+
+#Forest-Bathing-Circle {
+  display: inline;
+  position: absolute;
+  left: 600px;
+  right: 0px;
+  bottom: 300px;
+}
+
+#Think-Out-Loud {
+  display: inline;
+  position: absolute;
+  left: 600px;
+  right: 0px;
+  bottom: 50px;
 }

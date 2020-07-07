@@ -1,0 +1,51 @@
+#quote {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  width: 40%;
+
+  position: absolute;
+  left: 125px;
+  right: 0px;
+  bottom: 205px;
+}
+
+#red-circle {
+  background: red;
+  clip-path: circle(50% at 50% 50%);
+  height: 350px;
+  width: 350px;
+  opacity: 0.4;
+  margin: 0px;
+
+  position: absolute;
+  left: 850px;
+  right: 0px;
+  bottom: 25px;
+
+  -webkit-transition: all 500ms;
+}
+
+#red-circle:hover {
+  -webkit-transform: translate3d(50px, 0, 0);
+}
+
+#green-circle {
+  background: green;
+  clip-path: circle(50% at 50% 50%);
+  height: 350px;
+  width: 350px;
+  opacity: 0.4;
+  margin: 0px;
+
+  position: absolute;
+  left: 850px;
+  right: 0px;
+  bottom: 225px;
+
+  -webkit-transition: all 500ms;
+}
+
+#green-circle:hover {
+  -webkit-transform: translate3d(50px, 0, 0);
+}

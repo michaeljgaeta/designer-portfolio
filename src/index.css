@@ -15,15 +15,19 @@ color schemes
 #4FC895
 #FFFFFF
 #000000
+https://www.flaticon.com/packs/social-media-86?k=1594128698459
 */
 
 body {
-  box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
 
-  background-size: cover;
   background-image: url(../src/Assets/website-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 
   font-family: -apple-system, BlinkMacSystemFont, "Montserrat", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

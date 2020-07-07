@@ -18,7 +18,6 @@ import ForestBathing from "./Views/GraphicDesign/ForestBathing";
 import ThinkLoud from "./Views/GraphicDesign/ThinkLoud";
 
 import Photography from "./Views/Photography";
-import Contacts from "./Views/Contacts";
 
 function App() {
   return (
@@ -42,7 +41,6 @@ function App() {
           <Route component={ThinkLoud} exact path="/graphic-design/think-out-loud" />
 
           <Route component={Photography} exact path="/photography" />
-          <Route component={Contacts} exact path="/contacts" />
         </Switch>
       </Router>
     </div>
