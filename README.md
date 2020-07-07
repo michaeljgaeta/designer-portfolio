@@ -1,4 +1,4 @@
-![Front Page]: url(https://i.imgur.com/UHlnUnX)
+![Front Page](https://i.imgur.com/UHlnUnX.jpg)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
