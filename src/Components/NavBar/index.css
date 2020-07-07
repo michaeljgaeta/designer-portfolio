@@ -1,0 +1,19 @@
+.navbar {
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: space-between;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navlink {
+  list-style-type: none;
+  background-color: red;
+}

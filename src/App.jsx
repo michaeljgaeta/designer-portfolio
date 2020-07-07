@@ -20,11 +20,9 @@ import ThinkLoud from "./Views/GraphicDesign/ThinkLoud";
 import Photography from "./Views/Photography";
 import Contacts from "./Views/Contacts";
 
-import "./App.css";
-
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <NavBar />
         <Switch>
