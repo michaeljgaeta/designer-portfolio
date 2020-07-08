@@ -1,6 +1,6 @@
 .surf-background {
   background-image: url(/photos/website-background.jpg);
-  
+
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
@@ -39,4 +39,8 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#typography-demo {
+  font-family: "Aquatico", sans-serif;
 }
