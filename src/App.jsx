@@ -19,30 +19,35 @@ import ThinkLoud from "./Views/GraphicDesign/ThinkLoud";
 
 import Photography from "./Views/Photography";
 
+import "./index.css";
+
 function App() {
   return (
-    <div>
-      <Router>
-        <NavBar />
-        <Switch>
-          <Route component={Home} exact path="/" />
-          <Route component={About} exact path="/about" />
+    //set background image
+    <div className={<Route exact path="/" /> ? "surf-background" : "white-background"}>
+      <div>
+        <Router>
+          <NavBar />
+          <Switch>
+            <Route component={Home} exact path="/" />
+            <Route component={About} exact path="/about" />
 
-          <Route component={UXUI} exact path="/ux-ui" />
-          <Route component={UXUI1} exact path="/ux-ui/ux-ui-1" />
-          <Route component={UXUI2} exact path="/ux-ui/ux-ui-2" />
-          <Route component={UXUI3} exact path="/ux-ui/ux-ui-3" />
-          <Route component={UXUI4} exact path="/ux-ui/ux-ui-4" />
+            <Route component={UXUI} exact path="/ux-ui" />
+            <Route component={UXUI1} exact path="/ux-ui/ux-ui-1" />
+            <Route component={UXUI2} exact path="/ux-ui/ux-ui-2" />
+            <Route component={UXUI3} exact path="/ux-ui/ux-ui-3" />
+            <Route component={UXUI4} exact path="/ux-ui/ux-ui-4" />
 
-          <Route component={GraphicDesign} exact path="/graphic-design" />
-          <Route component={Adidas} exact path="/graphic-design/adidas" />
-          <Route component={Ioios} exact path="/graphic-design/ioios" />
-          <Route component={ForestBathing} exact path="/graphic-design/forest-bathing-circle" />
-          <Route component={ThinkLoud} exact path="/graphic-design/think-out-loud" />
+            <Route component={GraphicDesign} exact path="/graphic-design" />
+            <Route component={Adidas} exact path="/graphic-design/adidas" />
+            <Route component={Ioios} exact path="/graphic-design/ioios" />
+            <Route component={ForestBathing} exact path="/graphic-design/forest-bathing-circle" />
+            <Route component={ThinkLoud} exact path="/graphic-design/think-out-loud" />
 
-          <Route component={Photography} exact path="/photography" />
-        </Switch>
-      </Router>
+            <Route component={Photography} exact path="/photography" />
+          </Switch>
+        </Router>
+      </div>
     </div>
   );
 }

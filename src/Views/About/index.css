@@ -1,8 +1,15 @@
 .main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .sub-container {
-  width: 50%;
+  width: 70%;
+}
+
+.sub-container > img {
+  max-width: 100%;
+  
 }

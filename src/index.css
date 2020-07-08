@@ -1,33 +1,33 @@
-/* 
-color schemes
-#D8526A
-#DF233A
-#FFAE00
-#005725
-#0093B9
-#040405
-#EDC128
-#F01B10
-#399147
-#2D73B8
-#D4DDDB
-#F1433C
-#4FC895
-#FFFFFF
-#000000
-https://www.flaticon.com/packs/social-media-86?k=1594128698459
-*/
+.surf-background {
+  background-image: url(/photos/website-background.jpg);
+  
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.white-background {
+  background-color: white;
+}
 
 body {
   padding: 0;
-  margin: 0 auto;
-  width: 80%;
-
-  background-image: url(../src/Assets/website-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+  margin: 0;
 
   font-family: -apple-system, BlinkMacSystemFont, "Montserrat", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

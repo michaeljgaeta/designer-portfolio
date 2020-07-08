@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <>
       <div class="circle"></div>
-      
+
       <div className="navbar">
         <div className="logo-left">
           <NavLink to="/">Home</NavLink>
@@ -25,15 +25,15 @@ export default function NavBar() {
           <li className="navlink" id="photography">
             <NavLink to="/photography">Photography</NavLink>
           </li>
-          <li className="navlink social-icons" id="socialicons">
+          <li id="socialicons">
             <a href="https://www.instagram.com" target="blank">
-              <img src="icons/instagram.svg" width="20px" />
+              <img src="icons/instagram.svg" width="20px" alt="twitter-icon" />
             </a>
             <a href="https://www.facebook.com" target="blank">
-              <img src="icons/facebook.svg" width="20px" />
+              <img src="icons/facebook.svg" width="20px" alt="facebook-icon" />
             </a>
             <a href="https://www.linkedin.com" target="blank">
-              <img src="icons/linkedin.svg" width="20px" />
+              <img src="icons/linkedin.svg" width="20px" alt="linkedin-icon" />
             </a>
           </li>
         </ul>

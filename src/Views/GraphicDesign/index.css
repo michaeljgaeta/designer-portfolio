@@ -1,31 +1,33 @@
+.graphic-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 70%;
+}
+
+.logos-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+}
+
 #Adidas {
-  display: inline;
-  position: absolute;
-  left: 0px;
-  right: 600px;
-  bottom: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #Ioios {
-  display: inline;
-  position: absolute;
-  left: 0px;
-  right: 600px;
-  bottom: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #Forest-Bathing-Circle {
-  display: inline;
-  position: absolute;
-  left: 600px;
-  right: 0px;
-  bottom: 300px;
+  margin-bottom: 20px;
 }
 
 #Think-Out-Loud {
-  display: inline;
-  position: absolute;
-  left: 600px;
-  right: 0px;
-  bottom: 50px;
+  margin-bottom: 20px;
 }

@@ -1,0 +1,19 @@
+.adidas-main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.adidas-sub-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+#text-surfboards > h1 {
+  font-size: 52px;
+}
+
+#four-image-set {
+  max-width: 95%;
+}
+
