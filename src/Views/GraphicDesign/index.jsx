@@ -10,7 +10,7 @@ export default function GraphicDesign() {
           <img src="/logos/Adidas.png" alt="adidas-logo" />
         </Link>
         <Link id="Loios" to="/graphic-design/loios">
-          <img src="/logos/loios.png" alt="loios logo" />
+          <img src="/logos/Loios.png" alt="loios logo" />
         </Link>
       </div>
       <div className="logos-container">
