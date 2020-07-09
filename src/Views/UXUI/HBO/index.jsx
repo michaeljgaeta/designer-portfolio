@@ -1,9 +1,10 @@
 import React from 'react'
+import './index.css'
 
-export default function UXUI1() {
+export default function HBO() {
   return (
     <div>
-      UXUI1
+      HBO
     </div>
   )
 }

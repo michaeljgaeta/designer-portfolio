@@ -1,14 +1,30 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
-import "./index.css"
+import "./index.css";
 
 export default function UXUI() {
   return (
-    <div className="list">
-      <Link to="/ux-ui/ux-ui-1">UXUI1</Link>
-      <Link to="/ux-ui/ux-ui-2">UXUI2</Link>
-      <Link to="/ux-ui/ux-ui-3">UXUI3</Link>
-      <Link to="/ux-ui/ux-ui-4">UXUI4</Link>
+    <div className="ux-ui">
+      <div>
+        <Link to="/ux-ui/getbus">
+          <img src="/logos/Getbus.png" alt="getbus" />
+        </Link>
+      </div>
+      <div>
+        <Link to="/ux-ui/couchwood">
+          <img src="/logos/Couchwood.png" alt="couchwood" />
+        </Link>
+      </div>
+      <div>
+        <Link to="/ux-ui/hbo">
+          <img src="/logos/HBO.png" alt="hbo" />
+        </Link>
+      </div>
+      <div>
+        <Link to="/ux-ui/tiffin">
+          <img src="/logos/Tiffin.png" alt="tiffin" />
+        </Link>
+      </div>
     </div>
-  )
+  );
 }

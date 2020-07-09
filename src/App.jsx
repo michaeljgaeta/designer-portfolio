@@ -6,10 +6,10 @@ import Home from "./Views/Home";
 import About from "./Views/About";
 
 import UXUI from "./Views/UXUI";
-import UXUI1 from "./Views/UXUI/UXUI1";
-import UXUI2 from "./Views/UXUI/UXUI2";
-import UXUI3 from "./Views/UXUI/UXUI3";
-import UXUI4 from "./Views/UXUI/UXUI4";
+import Getbus from "./Views/UXUI/Getbus";
+import Couchwood from "./Views/UXUI/Couchwood";
+import HBO from "./Views/UXUI/HBO";
+import Tiffin from "./Views/UXUI/Tiffin";
 
 import GraphicDesign from "./Views/GraphicDesign";
 import Adidas from "./Views/GraphicDesign/Adidas";
@@ -33,10 +33,10 @@ function App() {
             <Route component={About} exact path="/about" />
 
             <Route component={UXUI} exact path="/ux-ui" />
-            <Route component={UXUI1} exact path="/ux-ui/ux-ui-1" />
-            <Route component={UXUI2} exact path="/ux-ui/ux-ui-2" />
-            <Route component={UXUI3} exact path="/ux-ui/ux-ui-3" />
-            <Route component={UXUI4} exact path="/ux-ui/ux-ui-4" />
+            <Route component={Getbus} exact path="/ux-ui/ux-ui-1" />
+            <Route component={Couchwood} exact path="/ux-ui/ux-ui-2" />
+            <Route component={HBO} exact path="/ux-ui/ux-ui-3" />
+            <Route component={Tiffin} exact path="/ux-ui/ux-ui-4" />
 
             <Route component={GraphicDesign} exact path="/graphic-design" />
             <Route component={Adidas} exact path="/graphic-design/adidas" />
