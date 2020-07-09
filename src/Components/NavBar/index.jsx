@@ -32,7 +32,7 @@ export default function NavBar() {
             <a href="https://www.facebook.com" target="blank">
               <img src="icons/facebook.svg" width="20px" alt="facebook-icon" />
             </a>
-            <a href="https://www.linkedin.com" target="blank">
+            <a href="https://www.linkedin.com/in/fredericodiascc/" target="blank">
               <img src="icons/linkedin.svg" width="20px" alt="linkedin-icon" />
             </a>
           </li>

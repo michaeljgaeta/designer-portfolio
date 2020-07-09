@@ -1,0 +1,36 @@
+.tol-main-container {
+  width: 70%;
+  margin: 0 auto;
+
+  /* border: 1px solid red; */
+}
+
+.tol-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 80px;
+
+  /* border: 1px solid grey; */
+}
+
+.tol-breakers {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+
+  margin-bottom: 80px;
+
+  /* border: 1px solid grey; */
+}
+
+/* .item {
+  border: 1px solid blue;
+} */
+
+#tol-full-size-image {
+  max-width: 100%;
+}

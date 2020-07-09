@@ -13,7 +13,7 @@ import UXUI4 from "./Views/UXUI/UXUI4";
 
 import GraphicDesign from "./Views/GraphicDesign";
 import Adidas from "./Views/GraphicDesign/Adidas";
-import Ioios from "./Views/GraphicDesign/Ioios";
+import Loios from "./Views/GraphicDesign/Loios";
 import ForestBathing from "./Views/GraphicDesign/ForestBathing";
 import ThinkLoud from "./Views/GraphicDesign/ThinkLoud";
 
@@ -40,7 +40,7 @@ function App() {
 
             <Route component={GraphicDesign} exact path="/graphic-design" />
             <Route component={Adidas} exact path="/graphic-design/adidas" />
-            <Route component={Ioios} exact path="/graphic-design/ioios" />
+            <Route component={Loios} exact path="/graphic-design/loios" />
             <Route component={ForestBathing} exact path="/graphic-design/forest-bathing-circle" />
             <Route component={ThinkLoud} exact path="/graphic-design/think-out-loud" />
 

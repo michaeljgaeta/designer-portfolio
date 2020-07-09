@@ -9,8 +9,8 @@ export default function GraphicDesign() {
         <Link id="Adidas" to="/graphic-design/adidas">
           <img src="/logos/Adidas.png" alt="adidas-logo" />
         </Link>
-        <Link id="Ioios" to="/graphic-design/ioios">
-          <img src="/logos/Ioios.png" alt="ioios-logo" />
+        <Link id="Loios" to="/graphic-design/loios">
+          <img src="/logos/loios.png" alt="loios logo" />
         </Link>
       </div>
       <div className="logos-container">

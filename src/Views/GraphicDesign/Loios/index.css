@@ -1,0 +1,36 @@
+.loios-main-container {
+  width: 70%;
+  margin: 0 auto;
+
+  /* border: 1px solid red; */
+}
+
+.loios-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 80px;
+
+  /* border: 1px solid grey; */
+}
+
+.loios-breakers {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+
+  margin-bottom: 80px;
+
+  /* border: 1px solid grey; */
+}
+
+/* .item {
+  border: 1px solid blue;
+} */
+
+#loios-full-size-image {
+  max-width: 100%;
+}
