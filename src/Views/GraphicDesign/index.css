@@ -1,3 +1,15 @@
+.cyan-background {
+  background: #D4DDDB;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*render under the navbar*/
+  z-index: -1;
+}
+
 .graphic-design {
   display: flex;
   flex-direction: row;

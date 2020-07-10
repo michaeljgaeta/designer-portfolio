@@ -1,3 +1,20 @@
+.cyan-background {
+  background: #d4dddb;
+
+  /* Set up positioning */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  display: cover;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /*render under the navbar*/
+  z-index: -1;
+}
+
 .photos-block {
   /* border-radius: 5px; */
   max-width: 70%;
@@ -5,4 +22,8 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+#photography-first-image {
+  margin-top: 200px;
 }

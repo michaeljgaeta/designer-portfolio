@@ -1,6 +1,18 @@
+.black-background {
+  background: black;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*render under the navbar*/
+  z-index: -1;
+}
+
 .fbc-main-container {
   width: 70%;
-  margin: 0 auto;
+  margin: 200px auto;
 
   /* border: 1px solid red; */
 }
@@ -33,4 +45,8 @@
 
 #fbc-full-size-image {
   max-width: 100%;
+}
+
+#fbc-first-image {
+  padding-top: 250px;
 }

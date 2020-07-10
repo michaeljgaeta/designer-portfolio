@@ -3,8 +3,8 @@ import "./index.css";
 
 export default function Photography() {
   return (
-    <div>
-      <img className="photos-block" src="/photos/photography/_MP10373.png" alt="surfing" />
+    <div className="cyan-background">
+      <img id="photography-first-image" className="photos-block" src="/photos/photography/_MP10373.png" alt="surfing" />
       <img className="photos-block" src="/photos/photography/_MP10847.png" alt="surfing" />
       <img className="photos-block" src="/photos/photography/SRISA.png" alt="surfing" />
       <img className="photos-block" src="/photos/photography/_MP10415.png" alt="surfing" />

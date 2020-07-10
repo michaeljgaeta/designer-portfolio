@@ -23,8 +23,7 @@ import "./index.css";
 
 function App() {
   return (
-    //set background image
-    <div className={<Route exact path="/" /> ? "surf-background" : "white-background"}>
+    <div>
       <div>
         <Router>
           <NavBar />
